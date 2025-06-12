@@ -31,5 +31,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: pySerialPlot-windows
-        path: dist/pySerialPlot.exe
-
+        path: dist/pySerialPlot50.exe
