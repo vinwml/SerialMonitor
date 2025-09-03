@@ -1,0 +1,28 @@
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+spinnaker-env/
+cam-venv/
+*venv/
+
+# Spinnaker binaries or wheels
+*.whl
+*.tar.gz
+
+# Video output files
+*.avi
+*.mp4
+*.csv
+
+# IDEs/editors
+.vscode/
+.idea/

@@ -25,10 +25,10 @@ jobs:
 
     - name: Build EXE
       run: |
-        pyinstaller --onefile --windowed code/pySerialPlot50.py
+        pyinstaller --onefile --windowed code/pySerialPlot_fast.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
       with:
         name: pySerialPlot-windows
-        path: dist/pySerialPlot50.exe
+        path: dist/pySerialPlot_fast.exe
