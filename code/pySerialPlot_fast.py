@@ -116,7 +116,7 @@ class SerialPlotApp(QMainWindow):
         self.pause_plot_checkbox.setChecked(False)
 
         self.save_raw_checkbox = QCheckBox("Save raw CSV")
-        self.save_raw_checkbox.setChecked(True)
+        self.save_raw_checkbox.setChecked(False)
 
         self.save_proc_checkbox = QCheckBox("Save processed CSV")
         self.save_proc_checkbox.setChecked(True)
@@ -124,7 +124,7 @@ class SerialPlotApp(QMainWindow):
         self.ds_label = QLabel("Plot every N-th:")
         self.ds_spin = QSpinBox()
         self.ds_spin.setRange(1, 1000)
-        self.ds_spin.setValue(10)
+        self.ds_spin.setValue(4)
 
         self.maxpoints_label = QLabel("Max plot points:")
         self.maxpoints_spin = QSpinBox()
